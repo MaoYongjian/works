@@ -37,6 +37,7 @@ input{outline:none}
 	background: white;
 	overflow-x: hidden;
 	text-overflow: ellipsis;
+	margin-top: 15px;
 }
 .kuang-title{
 	
