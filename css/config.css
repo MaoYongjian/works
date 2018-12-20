@@ -62,3 +62,9 @@ input{outline:none}
 	text-overflow: ellipsis;
 	overflow-x: hidden;
 }
+.kuang-body .kuang-list ul{
+	list-style-type:square;
+}
+.kuang-body .kuang-list li{
+	margin-top: 5px;
+}
