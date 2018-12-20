@@ -1,0 +1,63 @@
+/* 初始化样式 */
+body{color: #bdbdbd;background: #f6f6f6;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; color: #bdbdbd;} 
+a:hover { text-decoration:none; color: #00A7EB;} 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; }
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+input{border:none;}
+input{outline:none} 
+/* 公用样式 */
+.width{
+	width: 1140px;
+	background: blue;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.kuang{
+	width: 96%;
+	height: auto;
+	padding: 3%;
+	background: white;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+.kuang-title{
+	
+}
+.kuang-body{
+	margin-top: 15px;
+}
+/* 框图片 */
+.kuang-body .kuang-pic{
+	width: 25%;
+	overflow-x: hidden;
+	float: left;
+}
+.kuang-body .kuang-pic img{
+	width: 100%;
+	height: auto;
+}
+.kuang-body .kuang-text{
+	width: 70%;
+	height: 90px;
+	float: right;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+}
